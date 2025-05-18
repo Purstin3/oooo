@@ -45,7 +45,7 @@ export function PerformanceChart() {
   };
 
   const formatYAxisTick = (value: number) => {
-    return value;
+    return value.toString();
   };
 
   const CustomTooltip = ({ active, payload, label }: any) => {
